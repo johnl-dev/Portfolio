@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: linear-gradient(45deg, #FA4616, #418FDE);
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: Raspberie;
+    color: #FA4616;
+    font-size: 2.0em;
+}
+
+h2 {
+    font-family: Raspberie;
+    color: #418FDE;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: Raspberie;
+    font-size: 1.25em;
+}
+
+p {
+    font-family: Roman;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2.00em;
+
+}
+
+a {
+    color: #FA4616;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FA4616;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sectionTitle {
+    font-size: 2.5em;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+    background-color:black;
+    padding: 10px;
+    border-bottom: 3px solid #FA4616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navButtons {
+    color: #FA4616;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.connectButtons {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.navButton {
+    padding: 10px;
+    font-family: Roman;
+    font-size: 1.25em;
+}
+
+.connectButton {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.resumeButton {
+    background-color: #FA4616;
+    padding: 7.5px;
+    border-radius: 25px;
+    font-family: Raspberie;
+}
+
+.navDiv {
+    flex: 1;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.education {
+    margin-left: 60px;
+    padding: 30px;
+    margin-right: 60px;
+    text-align: center;
+    background-color: #FCF5E5;
+    border-bottom: 2px solid #E0D9CC;
+}
+
+.skills {
+    background-color: #FCF5E5;
+    margin-left: 60px;
+    padding: 30px;
+    margin-right: 60px;
+    border-bottom: 2px solid #E0D9CC;
+    text-align: center;
+}
+
+.projects {
+    background-color: #FCF5E5;
+    margin-left: 60px;
+    padding: 30px;
+    margin-right: 60px;
+    border-bottom: 2px solid #E0D9CC;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;;
+}
+
+
+.schools {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.schoolInfo {
+    text-align: left;
+    font-size: 1.15em;
+}
+
+.UFtitle {
+    color: #0021A5;
+}
+
+.UFgpa {
+    color: #FA4616;
+}
+
+.PBSCtitle {
+    color: #2b6959;
+}
+
+.PBSCgpa {
+    color: #edb731;
+}
+
+.SRHStitle {
+    color: #D20017;
+}
+
+.SRHSgpa {
+    color: silver;
+}
+
+.schoolList {
+    padding-left: 15px;
+    text-align: left;
+    font-family: Roman;
+}
+.projectDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectList {
+    color: white;
+    text-align: left;
+    font-family: Roman;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.welcomeText {
+    color: #FCF5E5;
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+.opener {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: calc(100vh - 112.8px);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #FCF5E5;
+    border-bottom: 2px solid #E0D9CC;
+    line-height: 2;
+}
+
+.skillList {
+    display: grid;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsList {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.skill {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #418FDE;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FA4616;
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.projectTitle {
+    color: white;
+    font-size: 1.75em;
+}
+
+.projectImage {
+    border-radius: 25px;
+    margin: 10px;
+    border: 3px solid white;
+
+}
+
+.HTML-CSS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillLabel {
+    color:white;
+    padding-top: 10px;
+}
+
+section {
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Raspberie;
+    src: url(RaspberiePersonalUseOnly.ttf);
+}
+
+@font-face {
+    font-family: Roman;
+    src: url(GaramondNova_Bold.ttf);
+}

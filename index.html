@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<header>
+    <link rel="stylesheet" href="styles.css">
+    <title>John Lewis</title>
+</header>
+<body>
+<div class="navbar">
+    <div class="connectButtons navDiv">        
+        <a href="https://github.com/johnl-dev">
+            <img src="images\github.png" height="40px" width="40px" class="connectButton">
+        </a>
+        <a href="https://www.linkedin.com/in/johnl-dev/">
+            <img src="images\LinkedIn.png" height="40px" width="40px" class="connectButton">
+        </a>
+        <button class="resumeButton connectButton">View My Resume</button>
+    </div>
+    <h1 class="navDiv">John Lewis</h1>
+    <div class="navButtons navDiv">
+        <a href="#education" class="navButton">Education</a>
+        <a href="#skills" class="navButton">Skills</a>
+        <a href="#projects" class="navButton">Projects</a>
+    </div>
+</div>
+<section id="welcome" class="welcome">
+    <h1 class="welcomeText">Welcome to my web portfolio!</h1>
+    <div class="opener">
+        <p>My name is John, I am currently a second year Computer Engineering student at the University of Florida. This website was created using HTML and CSS. Feel free to connect with me on LinkedIn and Github, and thanks for checking my website out!</p>
+    </div>
+</section>
+
+<section id="education" class="education">
+    <h1 class="sectionTitle">Education</h1>
+    <div class="schools">
+        <img src="images\UF_logo.png" alt="University of Florida" width="384" height="72.5" style="margin: auto;">
+        <div class="UFinfo schoolInfo" style="margin-left: 40px;">
+            <h2 class="UFtitle">University of Florida</h2>
+            <h3 class="UFgpa">GPA: 3.87</h3>
+            <ul class="schoolList">
+                <li>Pursuing a degree in Computer Engineering</li>
+                <li>Two-time Dean's Award Recipient</li> 
+            </ol>
+        </div>
+        <img src="images\PBSC_logo.png" alt="Palm Beach State College" width="384" height="151.5" style="margin: auto;">
+        <div class="PBSCinfo schoolInfo" style="margin-left: 40px;">
+            <h2 class="PBSCtitle">Palm Beach State College</h2>
+            <h3 class="PBSCgpa">GPA: 4.00</h3>
+            <ul class="schoolList">
+                <li>Awarded an Associate in Arts degree while in High School</li>
+            </ul>
+        </div>
+        <img src="images\SRHS_logo.png" alt="Palm Beach State College" width="110.68" height="151.5" style="margin: auto;">
+        <div class="SRHSinfo schoolInfo" style="margin-left: 40px;">
+            <h2 class="SRHStitle">Seminole Ridge High School</h2>
+            <h3 class="SRHSgpa">HPA: 5.34</h3>
+            <ul class="schoolList">
+                <li>Was ranked 2nd in a class of 540</li>
+                <li>Was a member of National Honor Society and Key Club</li>
+            </ul>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <h1 class="sectionTitle">Skills</h1>
+    <h2>Click on each skill to see my work!</h2>
+    <div class="skillList">
+        <div class="skill">
+            <img src="images\C++.svg" height="100" width="100">
+            <h2 class="skillLabel">C++</h2>
+        </div>
+        <div class="skill">
+            <img src="images\Python.svg" height="100" width="100">
+            <h2 class="skillLabel">Python<h2>
+        </div>
+        <div class="skill">
+            <img src="images\VHDL.png" height="100" width="100">
+            <h2 class="skillLabel">VHDL</h2>
+        </div> 
+        <div class="skill">
+            <img src="images\htmlcss.png" height="100" width="154.5">
+            <h2 class="skillLabel">HTML/CSS</h2>
+        </div> 
+        <div class="skill">
+            <img src="images\react.png" height="100" width="112.3">
+            <h2 class="skillLabel">React</h2>
+        </div>
+        <div class="skill">
+            <div style="height: 100px; display: flex; align-items: center;">
+                <img src="images\arm.png" height="50" width="162">
+            </div>
+            <h2 class="skillLabel">ARM Assembly</h2>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h1 class="sectionTitle">Projects</h1>
+    <div class="projectsList">
+        <div class="project">
+            <img src="images\Game Twin.png" width="152.4" height="127.8" class="projectImage">
+            <div class="projectDescription">
+                <h2 class="projectTitle">Game Twin</h2>
+                <div class="projectList">
+                    <ul class="projectList">
+                        <li>Used various sorting algorithms to find a user's preferred game</li>
+                        <li>Used a database with 1M+ datapoints</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="images\Solar_Guard.png" width="152.4" height="127.8" class="projectImage">
+            <div class="projectDescription">
+                <h2 class="projectTitle">Solar Guard</h2>
+                <div class="projectList">
+                    <ul class="projectList">
+                        <li>Used an arduino to detect the UV and alert the user to reapply</li>
+                        <li>Soldered the components to ensure stable usage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+</body>
+</html>
